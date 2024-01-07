@@ -12,4 +12,5 @@ struct CategoryModel: CategoryModelProtocol {
     var categoryName: String
     var categoryDescription: String
     var categoryImageName: String
+    var systemImageName: String
 }
