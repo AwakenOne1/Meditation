@@ -7,8 +7,7 @@
 
 import Foundation
 
-protocol RelaxModelProtocol {
-    var imageName: String { get }
-    var time: TimeInterval { get }
+protocol RelaxModelProtocol: ActivityProtocol {
     var soundUrl: String { get set }
+    
 }

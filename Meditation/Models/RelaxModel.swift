@@ -7,10 +7,11 @@
 
 import Foundation
 
-struct RelaxModel: RelaxModelProtocol {
+class RelaxModel: RelaxModelProtocol {
     var time: TimeInterval
     var soundUrl: String
-    let imageName: String
+    var imageName: String
+    
     init(time: TimeInterval, soundTitle: String, imageName: String) {
         self.time = time
         self.soundUrl = soundTitle
